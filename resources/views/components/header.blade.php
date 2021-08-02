@@ -20,33 +20,37 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="{{ url('/') }}">
+														<a class="dropdown-item" href="{{ url('/') }}">
 															Home
 														</a>
 													</li>
 													<li class="dropdown dropdown-mega">
-														<a class="dropdown-item dropdown-toggle" href="{{ url('/about') }}">
+														<a class="dropdown-item" href="{{ url('/about') }}">
 															About
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="{{ url('/proejcts') }}">
+														<a class="dropdown-item" href="{{ url('/proejcts') }}">
 															Projects
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle active" href="{{ url('/scholarship') }}">
+														<a class="dropdown-item active" href="{{ url('/scholarship') }}">
 															Scholarship
 														</a>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="{{ url('/contact') }}">
+														<a class="dropdown-item" href="{{ url('/contact') }}">
 															Contact
 														</a>
 													</li>
 												</ul>
 											</nav>
 										</div>
+										<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+
 									</div>
 								</div>
 							</div>

@@ -58,7 +58,7 @@
 
 			<div role="main" class="main">
 
-				<section class="page-header page-header-modern page-header-background page-header-background-md py-0 overlay overlay-color-primary overlay-show overlay-op-6"  style="background-image: url('/img/banner/sen TA WEB B@3x.png')">
+				<section class="page-header page-header-modern page-header-background page-header-background-md py-0 overlay overlay-color-primary overlay-show overlay-op-1"  style="background-image: url('/img/banner/unnamed.png')">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-5 order-2 order-sm-1 align-self-center p-static">
@@ -99,7 +99,7 @@
                             </div>
                             <div class="modal-body">
                                 <ol>
-                                    <li>Applicants must be diligent and poor. They must also be registered students at tertiary institutions in Nigeria, and have a record of good academic performance.</li>
+                                    <li>Applicant must be a registered student at a tertiary institution in Nigeria, and have a record of good academic performance.</li>
                                 
                                     <li>Students who are currently enjoying any form of scholarship or selected for such elsewhere are not eligible.</li>
 
@@ -123,17 +123,17 @@
 						<div class="col py-4">
                             <h4>ABOUT THE SCHOLARSHIP</h4>
                             <p class="lead">Education, is the life of a nation, it is the life wire of its industries and also the foundation of moral regeneration and revival of its people. It is also the force and bulwark of any nation’s defense. It has been observed that no nation rises above the level of its education.</p>
-							<p>It is through education that the daughter of a peasant can become a doctor, that a son of a mineworker can become the head of the mine, that a child of a farm worker can become the president of a nation.</p>
+							<p>
+							It is through education that the daughter of a peasant can become a doctor, that a son of a mineworker can become the head of the mine, that a child of a farm worker can become the president of a nation.</p>
                             <p>About 25.3 million students at all levels of education are out-of-school in Nigeria. With 11.4 million out of school children, Nigeria has the highest out-of-school children in the world. Having a scholarship that pays for your education and living expenses can actually reduce your risk of dropping out and not getting the degree you want.</p>
                             <p>Going to college is worth it. Your University degree will be one of the most lucrative investments you’ll make. University graduates earn more than someone with just a Secondary School certificate.</p>
                             <p>Scholarships are no longer just a bonus. They’re crucial for bridging the gap between the increasing cost of tuition and what you can afford to pay out of pocket. The cost of attending tertiary institution may seem daunting or discouraging, but Senator T. A. Orji has come to make it easier for his constituents, that’s exactly why finding, applying for, and receiving Sen. T. A. Orji Annual scholarships are essential to ensure that you won’t struggle to graduate deeply in debt.</p>
                             <p>Senator T. A. Orji introduced an annual scholarship scheme designed to produce 240 graduates in four years. 60 indigent/intelligent students; 10 from each of the six LGAs that make up his constituency will annually benefit from the scheme. The scheme has already produced 180 beneficiaries and the fourth batch of another 60 beneficiaries will come up before December this year.</p>
                             <p>Sen T. A Orji Annual Scholarship Scheme has been adjudged the largest provider of big tertiary institution scholarships in Nigeria. The scholarship covers tuition, accommodation, learning materials and stipend. Beneficiaries are expected to “Go - Back Give - Back” to their communities once they complete their course.</p>
-                            <p>Applicants must be diligent and poor. They must also be registered students at tertiary institutions in Nigeria, and have a record of good academic performance.</p>
                             <p>The scholarships are awarded to family members within the constituency who are accepted to an accredited tertiary institution or who are current students seeking support for completion of tertiary education. Students who are currently enjoying any form of scholarship or selected for such elsewhere are not eligible.</p>
                             <p>The scholarships are awarded based on character, leadership, potential for academic success, the importance of the scholarship to academic pursuit and financial need. The selection committee which shall consist of men of character drawn from constituent LGA’s of the Senatorial Zone shall score/screen all applications and select scholarship recipients.</p>
                             <p>The selection process is non-discriminatory. To ensure transparency, the Committee Members immediate family is not eligible to apply.</p>
-                            <p>Currently, there are opportunities for over 60 undergraduates to each secure Sen T. A. Orji Annual Scholarship worth 100,000 Naira to be used towards financing their studies. To participate, log on to; <a href="/">www.senatortaorji.org</a></p>
+                            <p>Currently, there are opportunities for over 60 undergraduates to each secure Sen T. A. Orji Annual Scholarship worth 100,000 Naira to be used towards financing their studies. To participate, log on to; <a href="/">www.senatortaorji.com</a></p>
                             <p>To God be the Glory.</p>
                             <h4>EPILOGUE</h4>
                             <p>When Sen. T. A. Orji became a federal lawmaker 5 years ago, his opponents thought he would end up warming his seat at the senate like some of the governors who had been there before him. But he proved his critics wrong as he gave the people of Abia Central Senatorial Zone quality representation.</p>
