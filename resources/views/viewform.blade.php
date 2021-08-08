@@ -85,12 +85,11 @@
 								<div class="d-flex justify-content-center mb-4">
 									<div class="profile-image-outer-container">
 										<div class="profile-image-inner-container bg-color-primary">
-											<img src="../img/avatars/avatar.jpg">
+											<img src="{{ url('storage/'.$passport) }}">
 											<span class="profile-image-button bg-color-dark">
 												<i class="fas fa-camera text-light"></i>
 											</span>
 										</div>
-										<input type="file" name="passport" class="form-control profile-image-input" required>
 									</div>
 								</div>
 
@@ -110,20 +109,20 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">Full Name</label>
 										<div class="col-lg-3">
-											<input class="form-control text-3 h-auto py-2" type="text" name="surname" value="" placeholder="Surname" required>
+											<input class="form-control text-3 h-auto py-2" type="text" name="surname" value="{{$surname}}" disabled>
 										</div>
 										<div class="col-lg-3">
-											<input class="form-control text-3 h-auto py-2" type="text" name="firstname" value="" placeholder="First Name" required>
+											<input class="form-control text-3 h-auto py-2" type="text" name="firstname" value="{{$firstname}}" disabled>
 										</div>
 										<div class="col-lg-3">
-											<input class="form-control text-3 h-auto py-2" type="text" name="othername" value="" placeholder="Other Name">
+											<input class="form-control text-3 h-auto py-2" type="text" name="othername" value="{{$othername}}">
 										</div>
 									</div>
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">Contact</label>
 										<div class="col-lg-5">
-											<input class="form-control text-3 h-auto py-2" type="text" name="email" value="" placeholder="Email" required>
+											<input class="form-control text-3 h-auto py-2" type="text" name="email" value="" placeholder="Email">
 										</div>
 										<div class="col-lg-4">
 											<input class="form-control text-3 h-auto py-2" type="text" name="phone" value="" placeholder="Phone Number" required>

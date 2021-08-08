@@ -19,4 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('scholarship', [ScholarshipController::class, 'show']);
-Route::get('scholarship/form', [ScholarshipController::class, 'form']);
+Route::get('scholarship/application', [ScholarshipController::class, 'show_form']);
+Route::post('submit/application', [ScholarshipController::class, 'submit_application']);
+Route::get('application/{id}', [ScholarshipController::class, 'application_form']);
