@@ -141,7 +141,7 @@
 										<label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">State/LGA</label>
 										<div class="col-lg-5">
 											<div class="custom-select-1">
-												<input class="form-control text-3 h-auto py-2" type="text" name="state" value="Abia State" disabled>
+												<input class="form-control text-3 h-auto py-2" type="text" name="state" value="Abia State ( Abia Central Senatorial District)" disabled>
 											</div>
 										</div>
 										<div class="col-lg-4">

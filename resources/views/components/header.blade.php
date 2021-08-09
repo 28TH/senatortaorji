@@ -8,7 +8,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="{{ url('/')}}">
-											<img alt="Logo" width="70" height="48" data-sticky-width="70" data-sticky-height="45" src="{{ asset('img/logo-red.png') }}">
+											<img alt="Logo" width="85" data-sticky-width="70" data-sticky-height="" src="{{ asset('img/logo-red.png') }}">
 										</a>
 									</div>
 								</div>
