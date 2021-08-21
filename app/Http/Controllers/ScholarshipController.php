@@ -41,21 +41,21 @@ class ScholarshipController extends Controller
 
                 //upload files
                 $application->passport = $request->file('passport')->store('public');
-                $application->admission_letter = $request->file('admission_letter')->store('public');
-                $application->idcard = $request->file('idcard')->store('public');
-                $application->lga_doc = $request->file('lga_doc')->store('public');
+                $application->admission_letter = '';//$request->file('admission_letter')->store('public');
+                $application->idcard = '';//$request->file('idcard')->store('public');
+                $application->lga_doc = '';//$request->file('lga_doc')->store('public');
                 
                 //store in DB
                 $application->save();
 
                 $id = encrypt($application->id);
 
-                return redirect("/application/{$id}/view");
+                return redirect("/application/{$id}");
 
 
         }
         catch(\Exception $e){
-                // return $e->getMessage();
+                 return $e->getMessage();
             return redirect('/scholarship/application?status=err');
         }
 

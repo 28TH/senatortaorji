@@ -15,12 +15,14 @@ class CreateApplicationsTable extends Migration
     {
         Schema::create('applications', function (Blueprint $table) {
             $table->id();
+            $table->string('app_no')->unique();
             $table->string('surname');
             $table->string('firstname');
             $table->string('othername')->nullable();
             $table->string('address');
             $table->string('email')->nullable();
             $table->string('phone', 15);
+            $table->string('alt_phone', 15);
             $table->string('state')->default('Abia');
             $table->string('lga');
             $table->string('university');
