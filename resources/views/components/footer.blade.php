@@ -31,8 +31,8 @@
                         <h5 class="text-3 mb-3">CONTACT US</h5>
                         <ul class="list list-icons list-icons-lg">
                             <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i><p class="m-0">Abuja, Nigeria</p></li>
-                            <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:0000">(80) 000-0000</a></p></li>
-                            <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:info@sentaorji.org">info@sentaorji.org</a></p></li>
+                            <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+2348038888612">0803 8888 612</a></p></li>
+                            <li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:scholarship@senatortaorji.com">scholarship@senatortaorji.com</a></p></li>
                         </ul>
                     </div>
                 </div>

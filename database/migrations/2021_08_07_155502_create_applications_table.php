@@ -22,7 +22,7 @@ class CreateApplicationsTable extends Migration
             $table->string('address');
             $table->string('email')->nullable();
             $table->string('phone', 15);
-            $table->string('alt_phone', 15);
+            $table->string('alt_phone', 15)->nullable();
             $table->string('state')->default('Abia');
             $table->string('lga');
             $table->string('university');

@@ -15,10 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return redirect('/scholarship');
 });
 
 Route::get('scholarship', [ScholarshipController::class, 'show']);
 Route::get('scholarship/application', [ScholarshipController::class, 'show_form']);
+Route::get('scholarship/privacy', [ScholarshipController::class, 'show_privacy']);
 Route::post('submit/application', [ScholarshipController::class, 'submit_application']);
 Route::get('application/{id}', [ScholarshipController::class, 'application_form']);

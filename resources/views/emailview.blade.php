@@ -53,21 +53,16 @@
 
 		<div class="body">
 
-			<x-header></x-header>
-
 			<div role="main" class="main">
 
 				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-lg">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="font-weight-bold">Application Form</h1>
+								<h1 class="font-weight-bold">Your application was successful.</h1>
 							</div>
 							<div class="col-md-12 align-self-center order-1">
-								<ul class="breadcrumb d-block text-center">
-									<li><a href="{{ url('/scholarship') }}">Scholarship</a></li>
-									<li class="active">Form</li>
-								</ul>
+                            <p>Below is a copy of your application form. <strong>Please note</strong> this email is not an approval of your scholarship but a receipt of your application.</p>
 							</div>
 						</div>
 					</div>
@@ -81,41 +76,16 @@
 								<div class="d-flex justify-content-center mb-4">
 									<div class="profile-image-outer-container">
 										<div class="profile-image-inner-container bg-color-primary">
-											<img src="{{ url($passport) }}">
+											<a href="{{ url($passport) }}">View Passport</a>
 										</div>
 									</div>
 								</div>
-
-								{{-- <aside class="sidebar mt-2" id="sidebar">
-									<ul class="nav nav-list flex-column mb-5">
-										<li class="nav-item"><a class="nav-link text-3 text-dark active" href="#">My Profile</a></li>
-										<li class="nav-item"><a class="nav-link text-3" href="#">User Preferences</a></li>
-										<li class="nav-item"><a class="nav-link text-3" href="#">Billing</a></li>
-										<li class="nav-item"><a class="nav-link text-3" href="#">Invoices</a></li>
-									</ul>
-								</aside> --}}
 
 							</div>
 
 							<div class="col-lg-9">
 
 							<table class="table table-bordered">
-										{{-- <thead>
-											<tr>
-												<th>
-													#
-												</th>
-												<th>
-													First Name
-												</th>
-												<th>
-													Last Name
-												</th>
-												<th>
-													Username
-												</th>
-											</tr>
-										</thead> --}}
 										<tbody>
 											<tr>
 												<td>
@@ -194,15 +164,6 @@
 										</tbody>
 									</table>
 
-
-									<div class="form-group row">
-										<div class="form-group col-lg-9">
-
-										</div>
-										<div class="form-group col-lg-3">
-										<button type="button" class="btn btn-info" onclick="window.print()">Print Form</button>
-										</div>
-									</div>
 							</div>
 
 						</div>

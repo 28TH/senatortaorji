@@ -75,7 +75,17 @@
 
 				<div class="container pt-3 pb-2">
 
-					<form role="form" class="needs-validation" method="POST" action="{{ url('/submit/application') }}" enctype="multipart/form-data">
+					@if ($errors->any())
+						<div class="alert alert-danger">
+							<ul>
+								@foreach ($errors->all() as $error)
+									<li>{{ $error }}</li>
+								@endforeach
+							</ul>
+						</div>
+					@endif
+
+					<form role="form" id="form" class="needs-validation" method="POST" action="{{ url('/submit/application') }}" enctype="multipart/form-data">
 
 						@csrf
 
@@ -93,15 +103,6 @@
 										<input type="file" name="passport" class="form-control profile-image-input" required>
 									</div>
 								</div>
-
-								{{-- <aside class="sidebar mt-2" id="sidebar">
-									<ul class="nav nav-list flex-column mb-5">
-										<li class="nav-item"><a class="nav-link text-3 text-dark active" href="#">My Profile</a></li>
-										<li class="nav-item"><a class="nav-link text-3" href="#">User Preferences</a></li>
-										<li class="nav-item"><a class="nav-link text-3" href="#">Billing</a></li>
-										<li class="nav-item"><a class="nav-link text-3" href="#">Invoices</a></li>
-									</ul>
-								</aside> --}}
 
 							</div>
 
@@ -122,12 +123,16 @@
 
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">Contact</label>
-										<div class="col-lg-5">
-											<input class="form-control text-3 h-auto py-2" type="text" name="email" value="" placeholder="Email" required>
+										<div class="col-lg-3">
+											<input class="form-control text-3 h-auto py-2" type="email" name="email" value="" placeholder="Email">
 										</div>
-										<div class="col-lg-4">
+										<div class="col-lg-3">
 											<input class="form-control text-3 h-auto py-2" type="text" name="phone" value="" placeholder="Phone Number" required>
 										</div>
+										<div class="col-lg-3">
+											<input class="form-control text-3 h-auto py-2" type="text" name="alt_phone" value="" placeholder="Alt Phone Number">
+										</div>
+
 									</div>
 
 									<div class="form-group row">
@@ -152,7 +157,7 @@
 													<option value="Isialangwa North">Isialangwa North</option>
 													<option value="Isialangwa South">Isialangwa South</option>
 													<option value="Osisioma Ngwa">Osisioma Ngwa</option>
-													<option value="Umuahia North">Umuahia South</option>
+													<option value="Umuahia North">Umuahia North</option>
 													<option value="Umuahia South">Umuahia South</option>
 												</select>
 											</div>
@@ -193,11 +198,19 @@
 									<div class="form-group row">
 										<label class="col-lg-3 col-form-label form-control-label line-height-9 pt-2 text-2 required">LGA Certificate <br/>Documents (< 500KB):</label>
 										<div class="col-lg-4">
-											<input class="form-control text-3 h-auto py-2" type="file" name="lga_doc" placeholder="lga_certificate" required>
+											<input class="form-control text-3 h-auto py-2" type="file" name="lga_doc" required>
 										</div>
 									</div>
 
-
+									<div class="form-group row">
+									<input class="col-lg-1" name="consent" id="consent" type="checkbox"/>
+										<div class="col-lg-11">
+											<p style="font-style: italic">
+												By checking the box, you are giving your consent to the processing of your personal information provided to us through this portal. Please read our <a href={{url('scholarship/privacy')}} target="_blank">Privacy Policy</a> for more information on how we process your data.
+												Further, you also certify that by clicking ‘Submit’, each Personal Information that you provide to us is correct, accurate, recent, and valid.
+											</p>
+										</div>
+									</div>
 
 									<div class="form-group row">
 										<div class="form-group col-lg-9">
@@ -245,6 +258,21 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="../js/theme.init.js"></script>
+		<script>
+
+			const form = document.getElementById('form');
+			const consent = document.getElementById('consent');
+
+			form.addEventListener('submit', (e) => {
+
+				e.preventDefault();
+
+				if(consent.checked == true)
+					form.submit()
+
+			});
+
+		</script>
 
 	</body>
 </html>
