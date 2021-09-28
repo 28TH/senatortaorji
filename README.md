@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://senatortaorji.herokuapp.com/img/logo-red.png" width="400"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="http://senatortaorji.herokuapp.com/img/logo-red.png" width="200"></a></p>
 
 ## Live Test
 
